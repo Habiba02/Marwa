@@ -12,19 +12,20 @@
 <style>
    body{
     display: flex;
+    word-wrap: normal;
     justify-content: center;
     align-self: center;
 }
 .card {
   width: 60%;
   height: auto;
-  padding: 0.5rem;
+  padding: 0.5%;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   margin: auto;
-text-align: center;
+    text-align: center;
 border: 2px solid #ff7900;
 margin: auto;
 }
@@ -32,11 +33,11 @@ margin: auto;
   margin: auto;
   word-wrap: normal;
 }
-a {
+button>a {
   text-decoration: none;
   color: #fff;
 }
-a:hover{
+button>a:hover{
     color: #ff7900;
     border-color: #ff7900;
 }
@@ -55,9 +56,10 @@ button:hover{
 
 }
 img{
-    width: 50%;
-    border-radius: 5px;
+    width: 40%;
+
 }
+
 </style>
 <body>  
     <div class="main">
@@ -66,17 +68,21 @@ img{
         <img class="card-img-top" src="./1517700364734.jfif" alt="Marwa's photo">
         <div class="card-body">
       <h1 class="card-title">    Mrs. Marwa Abdelmoniem </h1>
-      <p>
-     International Business Innovation and Competency Centers lead​ at Orange Business Services
+      <p style=" text-align: justify;
+">
+     International Business Innovation and Competency Centers lead at Orange Business Services
 
       </p>
-      <p> Phone:</p>
+         <div class="info" style=" text-align: justify;
+">   <p> Phone: <a href="tel:01221060009" style="  text-decoration:none;
+    color:#ff7900">01221060009</a></p>
+            <p> Email: <a href="mailto:marwa.abdelmoniem@orange.com" style="  text-decoration:none;
+    color:#ff7900">marwa.abdelmoniem@orange.com</a></p>
+            </div>
       <div>    
          <button>
         <a href="linkedin.com/in/marwa-abdelmoniem-0a27254">Linkedin Account</a>
-      </button>    <button>
-        <a href="mailto:marwa.abdelmoniem@orange.com">Email</a>
-      </button></div>
+      </button>  </div>
 
     </div>
     </div>
